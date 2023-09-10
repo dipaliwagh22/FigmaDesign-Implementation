@@ -1,0 +1,405 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #062057;
+}
+
+.main {
+    background-image: url(./images/guitar.png);
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_data {
+    background-image: url(./images/blue1.jpg);
+    background-size: cover;
+    height: 650px;
+    width: fit-content;
+    background-size: contain;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 99%;
+    height: 50px;
+    background-color: #5C6F9B;
+    border-radius: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.header img {
+    max-height: 35px;
+    margin-left: 10px;
+}
+
+.p {
+    color: #14dd94;
+    margin-left: 2%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: calibri, sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #AEC0E7;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 12%;
+    width: 35%;
+    outline: 1px #AEC0E7;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: #AEC0E7;
+}
+
+.search-bar input::placeholder {
+    color: #171616;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: calibri, sans-serif;
+}
+
+.search-bar i {
+    padding-left: 45%;
+}
+
+.green-heart {
+    color: #14dd94;
+    margin-left: 10px;
+}
+
+.icon {
+    margin-left: 12%;
+    padding-left: 6px;
+}
+
+.fas {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+.shreya_img {
+    height: 130px;
+    width: 550px;
+    background-color: #2f548377;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.shreya_img img {
+    height: 120px;
+    border-radius: 20px;
+    margin-top: 4px;
+    margin-left: 5px;
+
+}
+
+.shreya_img h4 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #802b2b;
+    margin-bottom: 5%;
+    font-family: calibri, sans-serif;
+}
+
+#play {
+    margin-left: 5%;
+
+}
+
+#play img {
+    height: 45px;
+    width: 100px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+#play h6 {
+    padding-left: 120px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 500;
+    font-family: calibri, sans-serif;
+
+}
+
+.play-1 span {
+    color: #fff;
+    margin-top: 8px;
+    cursor: pointer;
+    padding-left: 22px;
+}
+
+.play_1,
+.fa-circle-pause {
+    color: #14dd94;
+    cursor: pointer;
+
+}
+
+/* seek bar */
+#seek-bar {
+    width: 78%;
+    height: 7px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+
+#seek-bar .seek-bar-progress {
+    height: 100%;
+    background-color: #14dd94;
+    width: 50%;
+    border-radius: 6px;
+}
+
+.text {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.text #D {
+    font-size: 20px;
+    color: #14dd94;
+    font-weight: 600;
+    font-family: calibri, sans-serif;
+}
+
+.text #R {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-family: calibri, sans-serif;
+}
+
+.song {
+    width: 550px;
+    height: 400px;
+    background-color: #2f548377;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.song_img {
+    margin-top: 10px;
+}
+
+.song-img>div {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #5C6F9B;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #AEC0E7;
+}
+
+.song-img span {
+    font-size: 16px;
+    color: #802b2b;
+    font-weight: bold;
+    font-weight: 800;
+    font-family: calibri, sans-serif;
+}
+
+.song-img img {
+    height: 45px;
+    width: 55px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.song-img1 span:nth-child(2) {
+    margin-right: 50%;
+}
+
+.song-img2 span:nth-child(2) {
+    margin-right: 64%;
+}
+
+.song-img3 span:nth-child(2) {
+    margin-right: 64%;
+}
+
+.song-img4 span:nth-child(2) {
+    margin-right: 51%;
+}
+
+.song-img5 span:nth-child(2) {
+    margin-right: 66%;
+}
+
+.middle {
+    display: flex;
+}
+
+.arjit {
+    width: 450px;
+    height: 540px;
+    background-color: #2f548377;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.arjit_img {
+    margin-bottom: 10px;
+}
+
+.arjit_img h4 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #802b2b;
+    font-family: Calibri, sans-serif;
+    padding-left: 10px;
+}
+
+.arjit_img img {
+    width: 430px;
+    height: 230px;
+    border-radius: 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+/* arjit */
+.arjit-song img {
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.arjit-song>div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #AEC0E7;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #5C6F9B;
+    height: 40px;
+}
+
+.song-img6 span:nth-child(2) {
+    margin-right: 60%;
+}
+
+.song-img7 span:nth-child(2) {
+    margin-right: 50%;
+}
+
+.song-img8 span:nth-child(2) {
+    margin-right: 60%;
+}
+
+.song-img9 span:nth-child(2) {
+    margin-right: 57%;
+}
+
+.song-img10 span:nth-child(2) {
+    margin-right: 57%;
+}
+
+.arjit-song span {
+    font-size: 16px;
+    color: #802b2b;
+    font-weight: bold;
+    font-weight: 800;
+    font-family: calibri, sans-serif;
+}
+
+@media screen and (max-width:700px) {
+    .middle {
+        display: inherit;
+    }
+
+    .header,
+    .search-bar {
+        display: inline-table;
+
+    }
+
+    .icon {
+        margin-left: 4%;
+    }
+
+    .search-bar {
+        float: right;
+        position: relative;
+        top: 20px;
+        right: 10px;
+    }
+
+    .header img {
+        margin-top: 20px;
+    }
+
+    .dip {
+        position: absolute;
+        right: 5px;
+        top: 8px;
+    }
+
+    .icon {
+        float: right;
+    }
+
+    .arjit {
+        margin-left: 2%;
+    }
+
+    .p {
+        font-size: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .header img {
+        max-height: 50px;
+    }
+
+    .main_data {
+        height: 700px;
+    }
+
+    .main {
+        background-image: none;
+    }
+
+    .song,
+    .shreya_img,
+    .header {
+        width: 450px;
+    }
+}
